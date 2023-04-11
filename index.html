@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body> <!--LA ETIQUETA <BODY>  REPRESENTA AL CUERPO EN DONDE VAMOS A MODELAR NUESTRA PAGINA :)-->
+
+    <header> <!--LA ETIQUETA HEADER REPRESENTA A LA CAJA DE LA PARTE SUPERIOR EN DONDE SE PONDRA EL TITULO-->
+        <div class="menu container">
+            <!--la etiqueta <div> es un contenedor genérico de bloque para otros elementos. UN DIV ES UN BLOQUE. Es «genérico» porque no describe el contenido que contiene.-->
+
+            <a href="#" class="logo">Menu</a>
+            <!--LA ETIQUETA <a> HACE EL LLAMADO A UN LINK EN ESTE CASO EL LINK TIENE COMO NOMBRE mENU , QUE SE MOSTRARA EN LA PANTALLA-->
+            <input type="checkbox" id="menu">
+            <!--EL INPUT ES UNA ETIQUETA DONDE SE INSERTAN DATOS  ESTOS PUEDEN SER TEXTOS, NUMEROS O DATOS  MENSIONANDO EL TIPO DE INPUT K QUIERAS USAR-->
+            <label for="menu">
+                <!-- representa una etiqueta para un elemento en una interfaz de usuario. Este puede estar asociado con un control ya sea mediante la utilización del atributo for, o ubicando el control dentro del elemento label-->
+                <img class="menu-icono" src="imagenes/menu-btn.png" alt="menu">
+                <!--IMG ES UNA ETIQUETA DE INSERCION DE IMAGEN SEA IMAGEN DE ESCRITORIO O UN LINK DE UNA IMAGEN-->
+            </label>
+            <nav class="navbar">
+                <!--<nav> representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual oa otros documentos.-->
+
+                <ul> <!--ul de "lista desordenada" - lista no ordenada . crea una lista no ordenada. Sus etiquetas son : <ul> y </ul>(ambas obligatorias).Está definido como : Elemento para listas .Crea una caja : En bloque. Puede contener : Uno o más elementos li-->
+                    <li><a href="#"> Inicio</a></li>
+                    <li><a href="#"> Servicios</a></li>
+                    <li><a href="#"> Portafolio</a></li>
+                    <li><a href="#"> Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-text">
+
+            <h1>Lorem ipsum dolor sit amet consectetur,</h1>
+            <!--La etiqueta H1 es un elemento HTML que se usa para definir el título principal de una página web.-->
+
+            <p> <!--la etiqueta <p> es una etiqueta de texto que hace referencia a un parrafo -->
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et incidunt obcaecati tempore enim temporibus
+                <!--puedes usar lorem ipsum para llenar un txeto random-->
+                dicta est ullam molestias quaerat, dignissimos itaque id odio, fugit ipsum exercitationem similique quae
+                sint ea.
+            </p>
+            <a href="#" class="btn-1">Mas informacion</a>
+        </div>
+    </header>
+
+    <main class="services container"> <!--<main> representa el contenido principal <body> de nuestra pagina.-->
+
+        <h2>Servicios</h2> <!--con H2 hacemos referencia a un subtítulo del h1-->
+        <p class="txt-1.">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa error suscipit dicta veniam! Modi neque quasi
+            nesciunt quis assumenda consequuntur?
+        </p>
+        <div class="group-services">
+
+            <div class="service">
+                <img src="imagenes/1.svg" alt="">
+                <h3>Servicio 1</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="service">
+                <img src="imagenes/2.svg" alt="">
+                <h3>Servicio 2</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="service">
+                <img src="imagenes/3.svg" alt="">
+                <h3>Servicio 3</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </main>
+
+    <!--aqui empezamos con las secciones-->
+
+    <!--seccion 1-->
+    <section class="porfolio container">
+        <!--Sirve para determinar qué contenido corresponde a qué parte de un esquema. Piensa en el esquema como en el índice de contenido de un libro; un tema común y subsecciones relacionadas.-->
+
+        <div class="porfolio-txt">
+            <h2>Porfolio</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, et eius quos eos dolore esse
+                doloribus similique ut quasi aliquid?
+            </p>
+        </div>
+        <div class="imgs">
+            <img src="imagenes/photo.jpg" alt="">
+            <img src="imagenes/photo-2.jpg" alt="">
+        </div>
+
+        <a href="#" class="btn-1">Mas informacion</a>
+
+    </section>
+
+    <!--seccion 2-->
+    <section class="bg-sec">
+        <div class="bg-txt container">
+            <h2>informacion </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae nisi porro sunt,
+                consequuntur dolores laudantium reprehenderit sed maxime corrupti?
+            </p>
+        </div>
+    </section>
+
+    <!--seccion 3-->
+    <section class="prices container">
+
+        <div class="price">
+            <h3>$75</h3>
+            <ul>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+            </ul>
+            <a href="#" class="btn-1">mas informacion</a>
+
+        </div>
+
+        <div class="price">
+            <h3>$80</h3>
+            <ul>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+            </ul>
+            <a href="#" class="btn-1">mas informacion</a>
+
+        </div>
+
+        <div class="price">
+            <h3>$60</h3>
+            <ul>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+            </ul>
+            <a href="#" class="btn-1">mas informacion</a>
+
+        </div>
+
+    </section>
+
+    <footer> <!--el footer es el pie de pagina puede contener links txeto, imagenes etc-->
+        <div class="ft container">
+            <div class="enlace">
+                <h3>lorem</h3>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </div>
+
+            <div class="enlace">
+                <h3>lorem</h3>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </div>
+
+            <div class="enlace">
+                <h3>lorem</h3>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </div>
+
+            <div class="enlace">
+                <h3>Email</h3>
+                <form>
+                    <input type="text" class="btn-2">
+                    <input type="submit" value="Enviar" class="btn-3">
+                </form>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
